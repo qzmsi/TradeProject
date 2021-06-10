@@ -7,13 +7,13 @@ $(document).ready(function(){
 	})
 	$("#phone2").click(function(){
 		$("#phoneConclusion").hide();
-		$("#phoneParam").hide();
-		$("#phoneInfo").show();
+		$("#phoneInfo").hide();
+		$("#phoneParam").show();
 	})
 	$("#phone3").click(function(){
-		$("#phoneInfo").hide();
+		$("#phoneParam").hide();
 		$("#phoneConclusion").hide();
-		$("#phoneParam").show();
+		$("#phoneInfo").show();
 	})
 	
 })
