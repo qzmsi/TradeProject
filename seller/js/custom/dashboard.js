@@ -15,6 +15,12 @@ jQuery(document).ready(function(){
 		jQuery('#bedorder').click(function() {
 			jQuery('.centercontent iframe').attr("src","bedorder.html");
 		})
+		jQuery('#add_user').click(function() {
+			jQuery('.centercontent iframe').attr("src","useradd.html");
+		})
+		jQuery('#edit_user').click(function() {
+			jQuery('.centercontent iframe').attr("src","useredit.html");
+		})
 
 		jQuery("#productManagementBtn").click(function(){
 			jQuery("#productManagement").show();

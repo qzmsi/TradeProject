@@ -119,10 +119,10 @@ img {
     background-color:#00e58b;
 }
 
-/*.navbar-default .navbar-nav > li > div:hover, .navbar-default .navbar-nav > li > div:focus{
+.navbar-default .navbar-nav > li > div:hover, .navbar-default .navbar-nav > li > div:focus{
 	  color:#fff;
 	   background-color:#00e58b;
-}*/
+}
 .dropdown-menu.multi {
     min-width: 745px;
     padding: 30px 30px;
